@@ -26,7 +26,6 @@ dist-ssr
 
 src/api/utils.ts 
 src/api/note.ts 
-src/api/client.ts
 
 src/components/FooterLoggedInUser.tsx
 src/components/NavbarLoggedInUser.tsx
