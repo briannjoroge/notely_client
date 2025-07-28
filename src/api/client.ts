@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosWithAuth = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://notely-server-2.onrender.com/api",
 });
 
 axiosWithAuth.interceptors.request.use((config) => {

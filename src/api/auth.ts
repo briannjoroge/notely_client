@@ -9,7 +9,7 @@ export const registerUser = async (userData: {
 }) => {
   try {
     const res = await axios.post(
-      "http://localhost:5000/api/auth/register",
+      "https://notely-server-2.onrender.com/api/auth/register",
       userData
     );
     return res.data;
@@ -24,7 +24,7 @@ export const loginUser = async (credentials: {
 }) => {
   try {
     const res = await axios.post(
-      "http://localhost:5000/api/auth/login",
+      "https://notely-server-2.onrender.com/api/auth/login",
       credentials
     );
     return res.data;
