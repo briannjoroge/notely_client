@@ -3,15 +3,15 @@ import Register from "../pages/Register";
 import Login from "../pages/Login";
 import LandingPage from "../pages/LandingPage";
 import Dashboard from "../pages/Dashboard";
-import UpdateProfile from "../pages/UpdateProfile";
-import UpdatePassword from "../pages/UpdatePassword";
+// import UpdateProfile from "../pages/UpdateProfile";
+// import UpdatePassword from "../pages/UpdatePassword";
 import PrivateRoute from "../components/privateRoute";
-import DeletedNotes from "../pages/DeletedNotes";
-import MyNotes from "../pages/MyNotes";
-import NewNote from "../pages/NewNote";
-import SingleNote from "../pages/SingleNote";
-import UpdateNote from "../pages/UpdateNote";
-import UserProfile from "../pages/UserProfile";
+// import DeletedNotes from "../pages/DeletedNotes";
+// import MyNotes from "../pages/MyNotes";
+// import NewNote from "../pages/NewNote";
+// import SingleNote from "../pages/SingleNote";
+// import UpdateNote from "../pages/UpdateNote";
+// import UserProfile from "../pages/UserProfile";
 function AppRoutes() {
   return (
     <Routes>
@@ -27,70 +27,70 @@ function AppRoutes() {
           </PrivateRoute>
         }
       />
-      <Route
+      {/* <Route
         path="/notes"
         element={
           <PrivateRoute>
             <MyNotes />
           </PrivateRoute>
         }
-      />
-      <Route
+      /> */}
+      {/* <Route
         path="/notes/:noteId"
         element={
           <PrivateRoute>
             <SingleNote />
           </PrivateRoute>
         }
-      />
-      <Route
+      /> */}
+      {/* <Route
         path="/new-note"
         element={
           <PrivateRoute>
             <NewNote />
           </PrivateRoute>
         }
-      />
-      <Route
+      /> */}
+      {/* <Route
         path="/notes/:noteId/update"
         element={
           <PrivateRoute>
             <UpdateNote />
           </PrivateRoute>
         }
-      />
-      <Route
+      /> */}
+      {/* <Route
         path="/deleted-notes"
         element={
           <PrivateRoute>
             <DeletedNotes />
           </PrivateRoute>
         }
-      />
-      <Route
+      /> */}
+      {/* <Route
         path="/user"
         element={
           <PrivateRoute>
             <UserProfile />
           </PrivateRoute>
         }
-      />
-      <Route
+      /> */}
+      {/* <Route
         path="/update-profile"
         element={
           <PrivateRoute>
             <UpdateProfile />
           </PrivateRoute>
         }
-      />
-      <Route
+      /> */}
+      {/* <Route
         path="/update-password"
         element={
           <PrivateRoute>
             <UpdatePassword />
           </PrivateRoute>
         }
-      />
+      /> */}
     </Routes>
   );
 }
