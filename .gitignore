@@ -25,7 +25,6 @@ dist-ssr
 
 
 src/api/utils.ts 
-src/api/user.ts 
 src/api/note.ts 
 src/api/client.ts
 
